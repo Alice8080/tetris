@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/assets/styles/style.css">
+    <script src="./src/js/main.js" type="module" defer></script>
+    <title>Тетрис</title>
+</head>
+
+<body>
+    <div class="game">
+        <canvas id="game" width="300" height="600"></canvas>
+        <div class="game__control">
+            <div class="game__score">
+                <h2>Ваш счет: <span id="score">0</span></h2>
+                <h3 class="game__final" id="final">Игра окончена</h3>
+            </div>
+            <div class="game__buttons">
+                <button id="start-game">
+                    <img src="./src/assets/img/start-btn.svg">
+                    Начать игру
+                </button>
+                <button id="control-rotate">
+                    <img src="./src/assets/img/rotate-btn.svg">
+                    Повернуть
+                </button>
+                <button id="control-move-left">
+                    <img src="./src/assets/img/left-btn.svg">
+                    Сдвинуть влево
+                </button>
+                <button id="control-move-right">
+                    <img src="./src/assets/img/right-btn.svg">
+                    Сдвинуть вправо
+                </button>
+                <button id="control-down">
+                    <img src="./src/assets/img/down-btn.svg">
+                    Сдвинуть вниз
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
